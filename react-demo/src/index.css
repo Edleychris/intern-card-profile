@@ -1,0 +1,102 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family:"poppins";
+  background-color: #564;
+}
+*{
+  box-sizing: border-box;
+}
+.header{
+  padding-top: 6rem;
+  margin-bottom: -6rem;
+  justify-content: center;
+  text-align: center;
+  
+}
+.todo-container{
+  display:flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 100px auto;
+  border-radius: 7%;
+  min-height: 400px;
+  padding:20px;
+  background-color: #fff;
+  color: rgb(6, 63, 6);
+}
+.itemContainer{
+  display: flex;
+  justify-content: flex-start;
+}
+.ml-1{
+  margin-left: 10px;
+}
+form {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  justify-content: space-between;
+
+}
+form input{
+  width: 85%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  background-color: rgb(226, 241, 212);
+
+
+}
+::placeholder{
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #888;
+}
+form button{
+  background-color: transparent;
+  border: 1.5px solid #999;
+  width: 18%;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+button:hover{
+  background-color: rgb(6, 63, 6);;
+  border-color: #000;
+  color: #fff;
+}
+@media only screen and (max-width: 970px){
+form button{
+  background-color: transparent;
+  border: 1.5px solid #999;
+  width: 37%;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 7px;
+}
+}
+@media only screen and (max-width: 800px){
+  .todo-container{
+    width: 50%;
+    background-color: #3293;
+  }
+  form {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-between;
+  }
+  form input{
+    width: 100%;
+    background-color: #fff;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+  }
+
+}
