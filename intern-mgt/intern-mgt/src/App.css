@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #534666;
+}
+.btn-2 :hover{
+    color: whitesmoke;
+    background-color: #080b0a;
+}
+details{
+    text-align: justify;
+    font-size: 13px;
+
+}
+summary{
+    font-size: 1rem;
+    font-style: italic;
+    font-family: fantasy;
+}
+.d-p{
+    color: rgb(41, 30, 30);
+}
+.btn-2{
+    border: none;
+    cursor: pointer;
+    border-radius: 2px solid black;
+    padding-top: 2rem;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 2rem;
+    text-align: right;
+}
+.card :hover{
+    display: i;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card{
+    align-items: center;
+    display : flex;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-top: 10px;
+    min-height: 30vh;
+    background-image: linear-gradient(79deg, #534666, #cd7673, #dc8665);
+    border-radius: 100px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+img{
+    padding-bottom: 5px;
+    border-radius: 100%;
+}
+.info {
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3{
+    font-size: 0.9rem;
+    font-weight: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-size: 0.5rem;
+}
+
+@media screen and (min-width : 600px) {
+    body{
+        background-color: #56c596;
+    }
+    .card {
+        background-image: linear-gradient(79deg, #11261d, #7be495, #329d9c);
+        padding: 18px;
+        align-items: center;
+        display : flex;
+        flex-direction: row;
+        min-height: 20vh;
+        margin: 0.5rem 6rem ;
+        padding: 2rem;
+        border-radius: 40px 100px;
+        border-color: #080b0a;
+        box-sizing: content-box;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    }
+    .card :hover{
+        display: i;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+    }
+   img{
+        border-radius: 40px 100px;
+        padding : 5px;
+   }
+   .info {
+        margin-left: 10px;
+   }
+   .app{
+        margin-bottom: 20px;
+        /* padding: 15px; */
+        /* margin-top: 10rem; */
+        padding: 15px auto;
+        flex-direction : column;
+        display : flex;
+}
+.card :hover{
+    box-shadow: #080b0a;
+}
+} 
+
+@media screen and (min-width : 900px) {
+    body {
+        background-color: #d4cfc9;
+    }
+    .card{
+        background-image: linear-gradient(79deg, #d45769, #308695, #d4cfc9);
+    }
+    .app {
+        padding: 15px auto;
+        flex-direction : row;
+        display : flex;
+        flex-wrap: wrap;
+        justify-content : space-between;
+    }
+    .card :hover{
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    img{
+        border-radius: 1px 30px;
+    }
+    .card{
+        width : 35%;
+        flex-direction : column;
+        display : flex;
+        align-items: center;
+        padding-top: 30px;
+        margin-top: 10px;
+        min-height: 30vh;
+        margin: 20px;
+    }
+    .btn-2{
+        width: 100%;
+    }
+
+}

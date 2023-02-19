@@ -1,0 +1,68 @@
+.form-container{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+    background-image: linear-gradient(79deg, #821363, #e264d3, #dea75a);
+}
+.form-container, .login-form, .register-form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    text-align: left;
+    padding: 0.25rem 0;
+
+}
+input{
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+}
+button{
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    color: aquamarine;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: #821363;
+}
+@media screen and (max-width : 600px) {
+.form-container{
+    padding: 4rem;
+    margin: 0.5rem;
+    border-radius: 9px;
+    border: 2px solid #821363;
+}
+label{
+    text-align: left;
+    padding: 0.1rem 0;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+    background-color: floralwhite;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+}
+.log{
+    padding: 0.1rem 0;
+    font-size: 3rem;
+    font-weight: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #821363;
+}
+.btn{
+    padding: 1rem 5rem;
+}
